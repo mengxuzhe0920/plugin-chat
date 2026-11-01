@@ -1,0 +1,45 @@
+# ── 构建产物 / 依赖 ──
+node_modules/
+build/
+dist/
+target/
+out/
+*.jar
+*.class
+*.war
+
+# ── Python ──
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.venv/
+venv/
+
+# ── 日志 & 数据库 ──
+*.log
+*.db
+*.sqlite
+*.sqlite3
+
+# ── 图片 / 二进制 ──
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.ico
+*.woff
+*.woff2
+*.ttf
+*.zip
+
+# ── OS / IDE ──
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml
+
+# ── 本地部署临时文件 ──
+.env
+*.local

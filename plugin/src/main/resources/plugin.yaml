@@ -1,0 +1,17 @@
+apiVersion: plugin.halo.run/v1alpha1
+kind: Plugin
+metadata:
+  name: PluginChat
+spec:
+  enabled: true
+  requires: ">=2.25.0"
+  version: "0.2.0"
+  displayName: 小窝聊天
+  description: 在 UC 个人中心侧边栏加入「小窝聊天」入口，直接跳转 sams-house.top/chat 独立聊天页（不再内嵌 iframe）。
+  author:
+    name: WorkBuddy
+    website: https://sams-house.top
+  homepage: https://sams-house.top/chat/
+  issues: https://sams-house.top/archives/uc-chat-launch
+  license:
+    - name: MIT
